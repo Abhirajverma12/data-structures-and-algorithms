@@ -11,7 +11,8 @@
  */
 class Solution {
 public:
-int maxi = INT_MIN;
+// optimized O(N) solution .. 
+    int maxi = INT_MIN;
     int findheight(TreeNode* root) {
         if(root == NULL ) return 0;
 
